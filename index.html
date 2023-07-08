@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Tecnotudo Eletrodomesticos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" type="image/gif" href=".//imagens/imagem explicatoria.jpg" sizes="16x16">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+</head>
+<body>
+
+<div class="container-fluid p-5  text-white text-center" id="menu-principal">
+   <div class="logo">
+      <img src="./imagens/logo-3.0" alt=""> 
+          </div>
+   <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">carrinho</a>
+        </li>
+    </li>
+   
+        <li class="nav-item">
+            <a class="nav-link" href="#">Fale conosco</a>
+        </li>
+      </ul> 
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Produtos&#9947;</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Area da quarto</a>
+                    <ul class="dropdown-menu">
+              
+                      <li><a class="dropdown-item" href="#">Ferro de passa</a></li>
+                      <li><a class="dropdown-item" href="#">ventilador</a></li>
+                      <li><a class="dropdown-item" href="#">Ar condicionado</a></li>
+                    
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Area da cozinha</a>
+                    <ul class="dropdown-menu">
+              
+                      <li><a class="dropdown-item" href="#">Geladeira</a></li>
+                      <li><a class="dropdown-item" href="#">Micro-ondas</a></li>
+                      <li><a class="dropdown-item" href="#">Fogão</a></li>
+                      <li><a class="dropdown-item" href="#">Sanduicheira</a></li>
+                      <li><a class="dropdown-item" href="#">Liquidificador</a></li>
+                      <li><a class="dropdown-item" href="#">Torradeira</a></li>
+                      <li><a class="dropdown-item" href="#">Maquina de lava louças</a></li>
+                      <li><a class="dropdown-item" href="#">Cafeteira</a></li>
+                      <li><a class="dropdown-item" href="#">Espremedor de frutas</a></li>
+                    </ul>
+                  </li>
+            
+               <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Area do banheiro</a>
+      <ul class="dropdown-menu">
+
+        <li><a class="dropdown-item" href="#">Maquina de lavar</a></li>
+        <li><a class="dropdown-item" href="#">secador de cabelo</a></li>
+        <li><a class="dropdown-item" href="#">prancha de cabelo</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Area da sala</a>
+      <ul class="dropdown-menu">
+
+        <li><a class="dropdown-item" href="#">Aspirado de pó</a></li>
+      </ul>
+    </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Fale conosco</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="digite aqui">
+              <button class="btn btn-primary" type="button" id="cor">Pesquise</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicadores/pontos -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- A apresentação de slides/carrossel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagens/1-execucao.png" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/2-execucao.png" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/3-execucao.png" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Controles/ícones esquerdo e direito -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div><br>
+
+<!-- Apresentação da empresa -->
+  <center><div class="card mb-3" style="max-width: 1540px; height: 300px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src=".//imagens/explicadorrr.jpg" style="max-width: 300px;" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h1 class="card-title" id="iscar">Eletrodomesticos</h1>
+          <h5><p class="card-text" id="iscar">Os nossos protudos necessarios para o caos da sua casa.</p></h5>
+          <p>Nossos produtos oferecem uma melhor qualidade além de altas tecnologias e capacidades de melhor conforto.<br>
+            Oferecemos para você uma capacidade de ter sustentabilidade e equilíbrio em seu lar.</p>
+          <p class="card-text"><small class="text-muted">feito em 2022</small></p>
+        </div>
+      </div>
+    </div>
+  </div></center>
+
+ <!-- CSS do Link Swiper -->
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+
+<!-- os produtos da empresa -->
+<h2 id="esquedor"> &#9827;Cozinha</h2><br>
+<div>
+ 
+<button classs ="btn active">Geladeira</button> 
+<button class="btn"> Micro-ondas</button>
+  <button class="btn">fogao </button>
+  <button class="btn">Sanduicheira</button>
+  <button class="btn">Liquidificador</button>
+  <button class="btn">Torradeira</button>
+  <button class="btn">Maquina de lavar louças</button>
+  <button class="btn">Cafeteira</button>
+  <button class="btn">Espremedor de frutas</button>
+</div>
+
+<body>
+<!-- Swiper -->
+<div class="swiper mySwiper">
+ <div class="swiper-wrapper">
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 01.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira supe banque</h5>
+        <p class="card-text">Com Alta tecnologias e capacidade de armazenar a sua comida..</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Por R$ 30.099,000
+          em até 10 x de R$ 309,90 sem juros </a>
+      </div>
+    </div>
+
+
+   </div>
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 02.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira de armário </h5>
+        <p class="card-text">Com capacidade de vista para sua melhor preparação.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">&#127765; &#127765; &#127763; &#127761; &#127761; </li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Por R$ 1045,900
+          em até 7 x de R$ 137,25 sem juros</a>
+      </div>
+    </div>
+
+   </div>
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 04IA.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira do futuro mega NASA</h5>
+        <p class="card-text">super hiper mega tecnologia avançada resporder por vox e com Alta capacidade de sua comida dura até mais.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"> &#127765; &#127765;&#127765; &#127765; &#127765; &#127765; </li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">ESGOTADO</a>
+      </div>
+    </div>
+
+
+   </div>
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 03.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira de armário dupla</h5>
+        <p class="card-text">Com tecnologia capacitada junto com kit dois freezer.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">&#127765; &#127765; &#127763; &#127763; &#127761;</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Por R$ 7130,990
+          em até 5 x de R$ 142,78 sem juros</a>
+      </div>
+    </div>
+
+   </div>
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 05IA.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira com painel automático
+        </h5>
+        <p class="card-text">tecnologia avançada para responder por voz e com kit de bolsa para os seus produtos que precisa na hora.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">&#127765; &#127765;&#127765; &#127765;  &#127761;</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Por R$ 10.740,400
+          Exclusivo 1x no Cartão de Credito ou Pix.</a>
+      </div>
+    </div>
+
+   </div>
+   <div class="swiper-slide">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/Geladeira - 06IA.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geladeira do futuro mega</h5>
+        <p class="card-text">super hiper tecnologia avançada com 2 portas e uma Alta capacidade de sua comida dura até o apocalipse.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"> &#127765; &#127765;&#127765; &#127765; &#127765; &#127765; </li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">ESGOTADO</a>
+      </div>
+    </div>
+
+   </div>
+ </div>
+
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-pagination"></div>
+</div><br><br>
+
+
+
+<h2 id="esquedor" > &#9884; Banheiro</h2><br>
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('')">Maquina de lavar</button>
+  <button class="btn" onclick="filterSelection('')">secador de cabelo</button>
+  <button class="btn" onclick="filterSelection('')">prancha de cabelo</button>
+  </div>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 01.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maquina de lavar</h5>
+          <p class="card-text">com 100% de roupas limpas em rapida entregar </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 10.949,90
+            em até 5 x de R$ 216,56 sem juros</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 03.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maquina tanque</h5>
+          <p class="card-text">sua limpeza ao 10000</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 10.9490,90000
+            em até 10 x de R$ 216,560 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 04.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Máquina lavar roupas</h5>
+          <p class="card-text">Com potência máxima E alta qualidade.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 10.94,900
+            em até 10 x de R$ 216,560 sem juros</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 02.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Máquina tanque resk</h5>
+          <p class="card-text">
+            Automático e rápida responder por voz.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 100.900,00
+            em até 10 x de R$ 216,560 sem juros</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 05.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maquina eliminadora
+          </h5>
+          <p class="card-text">Limpa sem deixar NENHUMA mancha.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">ESGOTADO</a>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/maquina de lavar - 06.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Máquina mordenhia
+            </h5>
+          <p class="card-text">Chique, né sua amiga tem.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">&#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">ESGOTADO</a>
+        </div>
+      </div>
+
+
+
+    </div>
+   
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div><br>
+
+<h2 id="esquedor">&#9831;Sala de estar</h2><br>
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('')">Aspirado de pó</button>
+  </div>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 01.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aprovador de pó 1000
+           </h5>
+          <p class="card-text"> Aspirar que e uma beleza</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 02.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aparador de pó 2000
+            </h5>
+          <p class="card-text">Nenhum digo nenhum passa por essa belezinha.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 05.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aparador de pó 3000
+            </h5>
+          <p class="card-text">Até a sua família teria inveja.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 03.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aparador de pó 4000
+            </h5>
+          <p class="card-text">Limpa que nem se vê o átomo de pó.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 04.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aspirador de pó 10000</h5>
+          <p class="card-text">O futuro te espera (responder por voz).</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagens/aspirador de po - 06.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aspirador de pó 5000</h5>
+          <p class="card-text">Detectar sujeira em todos os lugares até o seu fio de cabelo.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Por R$ 30.099,000
+            em até 10 x de R$ 309,90 sem juros </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div><br>
+
+<h2 id="esquedor"> &#9813;Quarto</h2><br>
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('')">Ferro de passa</button>
+  <button class="btn" onclick="filterSelection('')">ventilador</button>
+  <button class="btn" onclick="filterSelection('')">Ar condicionado</button>
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 01.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ferro de passar
+            </h5>
+            <p class="card-text">a Vapor Base Cerâmica com Spray Electrolux Easyline SIE70 Verde azulado </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">R$ 109,00
+              ou até 2x de R$54,50 sem juros</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ferro de passar</h5>
+            <p class="card-text"> a Seco Mondial FSN-55-B roxo\Branco</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Por R$ 30.90
+              em até 1x  de R$ 20,90 sem juros </a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ferro de passar</h5>
+            <p class="card-text">Vapor Base Cerâmica com Spray Mondial AA NF-34 Branco/Azul 1200W</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Por R$ 99,00
+              em até 5x de R$ 39,90 sem juros </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ferro de passar</h5>
+            <p class="card-text"> Retro Base Cerâmica Pfe01p Branco Dourado </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Por R$ 50.990,0
+              em até 5x de R$ 409,90 sem juros </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 05.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ferro de passar</h5>
+            <p class="card-text">a Vapor Mondial FVN-01-P com Spray e Base Cerâmica Diamante – Branco/Roxo.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Por R$ 20.990
+              em até 10 x de R$ 19,90 sem juros </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagens/ferro de passar - 06.jpg" class="card-img-top" alt="..." id="ferro">
+          <div class="card-body">
+            <h5 class="card-title">Ferro de passar</h5>
+            <p class="card-text">Vapor Base Cerâmica com Função Spray Mondial AA NF-33 Branco/Roxo vinho 1200W</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> &#127765; &#127765; &#127765; &#127763; &#127761;</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Por R$ 30.990
+              em até 2x de R$ 30,90 sem juros </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+<!-- Swiper JS-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Inicializar o Deslizador -->
+<script>
+ var swiper = new Swiper(".mySwiper", {
+   slidesPerView: 3,
+   spaceBetween: 30,
+   slidesPerGroup: 3,
+   loop: true,
+   loopFillGroupWithBlank: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+</script><br><br>
+
+
+  <!-- Rodape -->
+
+  <div class="content">
+  </div>
+      <footer id="myFooter">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3">
+                      
+                  </div>
+                  <div class="col-sm-2">
+                      <h5>Inicio</h5>
+                      <ul>
+                          <li><a href="https://programadorviking.com.br/">Home</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-2">
+                      <h5>Sobre-nós</h5>
+                      <ul>
+                          <li><a href="https://wa.me/qr/CS5EF4BKTQUMK1">Contato</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-2">
+                      <h5>Suporte</h5>
+                      <ul>
+                          <li><a href="https://criarmeulink.com.br/u/1663354135">E-mail</a></li>
+                          <li><a href="https://criarmeulink.com.br/u/1663352678">Telefones</a></li>
+                          <li><a href="https://t.me/Victor_mirandaaa">Chat</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="social-networks">
+                          <a href="https://www.instagram.com/_.victormiranda/" class="instagram"><i class="fa fa-instagram"></i></a>
+                      </div>
+                      <a href="https://wa.me/qr/CS5EF4BKTQUMK1">
+                          <button type="button" class="btn btn-default">Contato</button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright">
+              <p>© 2022 Copyright - TECNOTUDO</p>
+          </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

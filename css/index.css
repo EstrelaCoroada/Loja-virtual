@@ -1,0 +1,116 @@
+/* inicio */
+body{
+  width: 100%;
+  height: 100%;
+}
+#menu-principal{
+    background-color: black;
+}
+.logo img{
+    width: 197px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+ }
+#pesquisa{
+    padding-left: 30%;
+}
+#cor{
+    background-color: rgb(88, 88, 88);
+}
+
+/* apresentacao da empresa */
+
+#iscar{
+  padding-top: 5%;
+}
+#esquedor{
+  padding-left: 1%;
+}
+#ferro {
+  width: 70%;
+}
+
+/* rodape */
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+ 
+/* prpodutos da empresa */
+
+html,
+ body {
+   position: relative;
+   height: 100%;
+ }
+
+ body {
+   background: #eee;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color: #000;
+   margin: 0;
+   padding: 0;
+ }
+
+ .swiper {
+   width: 100%;
+   height: 100%;
+ }
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+
+   /* Centraliza o texto do slide verticalmente */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
